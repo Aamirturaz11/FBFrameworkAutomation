@@ -1,0 +1,124 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 62,
+        "name": "Invalid Login Check via Blank Mobile Number or Blank Password in the Application",
+        "description": "",
+        "id": "login-testcases-set;invalid-login-check-via-blank-mobile-number-or-blank-password-in-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2589899700,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "Open Browser",
+            "match": {
+              "location": "FeatureAllSteps.opened_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1404840500,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "Enter the Valid URL",
+            "match": {
+              "location": "FeatureAllSteps.url_entered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5166963400,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "Users Takes the Screenshot",
+            "match": {
+              "location": "FeatureAllSteps.amazonSSTaken_Saved()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6279271000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Enter the  Email ID as blank via Enter the Password as blank",
+            "match": {
+              "location": "FeatureAllInvalidSteps.Invalidpassword_via_Invalidusername_entered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8091209700,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "FeatureAllSteps.amazon_login_clk()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5150132200,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "Users Takes the Screenshot",
+            "match": {
+              "location": "FeatureAllSteps.amazonSSTaken_Saved()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 275818100,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "Browser is Closed",
+            "match": {
+              "location": "FeatureAllSteps.opened_browser_closed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FbValidLogin"
+          },
+          {
+            "name": "@FbinValidLogin4"
+          }
+        ]
+      }
+    ],
+    "name": "Login Testcases set",
+    "description": "",
+    "id": "login-testcases-set",
+    "keyword": "Feature",
+    "uri": "D:/Framework/AmazonWorkingProjectJune2022/AmazonFeature/AmazonSet\u0027s.feature",
+    "tags": [
+      {
+        "name": "@FbValidLogin",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
